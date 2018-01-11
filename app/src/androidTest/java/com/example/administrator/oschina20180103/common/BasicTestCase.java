@@ -12,6 +12,7 @@ import com.example.administrator.oschina20180103.Pages.PageManager;
 
 import org.junit.Before;
 import org.junit.runner.RunWith;
+import org.junit.Test;
 
 /**
  * Created by Administrator on 2018/1/3.
@@ -43,4 +44,15 @@ public class BasicTestCase {
         // 等待应用启动
         //device.wait(Until.hasObject(By.res("")),5000);
     }
+  
+
+/**
+ * Created by Administrator on 2018/1/6.
+ */
+
+
+    @Test
+    public void name() throws Exception {   
+    }
+
 }
