@@ -12,7 +12,6 @@ import com.example.administrator.oschina20180103.Pages.PageManager;
 
 import org.junit.Before;
 import org.junit.runner.RunWith;
-import org.junit.Test;
 
 /**
  * Created by Administrator on 2018/1/3.
@@ -50,9 +49,5 @@ public class BasicTestCase {
  * Created by Administrator on 2018/1/6.
  */
 
-
-    @Test
-    public void name() throws Exception {   
-    }
 
 }
