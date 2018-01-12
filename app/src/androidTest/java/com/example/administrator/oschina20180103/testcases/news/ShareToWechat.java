@@ -9,12 +9,15 @@ import org.junit.Test;
  */
 
 public class ShareToWechat extends BasicTestCase{
+    public ShareToWechat(){
+        super(true);
+    }
     @Test
     public void name() throws Exception {
-        pm.getPageCommon().goToMyTab();
-        pm.getPageMy().clickLoginIcon();
-        pm.getPageLogin().login("735723619@qq.com","12345678");
-        pm.getPageCommon().goToHomeTab();
+//        pm.getPageCommon().goToMyTab();
+//        pm.getPageMy().clickLoginIcon();
+//        pm.getPageLogin().login("735723619@qq.com","12345678");
+//        pm.getPageCommon().goToHomeTab();
         pm.getPageHome().clickNewsItem(3);
         pm.getPageNewsDetail().clicktShareBtn();
         pm.getPageNewsDetail().shareToWechatMoment();

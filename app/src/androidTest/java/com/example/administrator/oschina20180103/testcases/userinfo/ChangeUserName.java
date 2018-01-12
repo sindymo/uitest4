@@ -10,11 +10,14 @@ import org.junit.Test;
  */
 
 public class ChangeUserName extends BasicTestCase{
+    public ChangeUserName(){
+        super(true);
+    }
     @Test
     public void name() throws Exception {
         pm.getPageCommon().goToMyTab();
-        pm.getPageMy().clickLoginIcon();
-        pm.getPageLogin().login("735723619@qq.com","12345678");
+//        pm.getPageMy().clickLoginIcon();
+//        pm.getPageLogin().login("735723619@qq.com","12345678");
         pm.getPageMy().clickNickName();
         pm.getPageMyData().clickNickNameTv();
         pm.getPageModifyUserInfo().changeUserName("auto12345auto");
