@@ -45,14 +45,14 @@ public class BasicTestCase {
         context.startActivity(intent);
         // 等待应用启动
         //device.wait(Until.hasObject(By.res("")),5000);
-        pm.getPageCommon().goToMyTab();
-           //如果已登录，就需要做退出操作
-            if (!pm.getPageMy().getNickName().equals("点击头像登录"));{
-                pm.getPageMy().clickSettingsIcon();
-                pm.getPageSettings().clickLoginOutTv();
-                pm.getPageSettings().clickBackBtn();
-            }
-            pm.getPageCommon().goToHomeTab();
+//        pm.getPageCommon().goToMyTab();
+//           //如果已登录，就需要做退出操作
+//            if (!pm.getPageMy().getNickName().equals("点击头像登录"));{
+//                pm.getPageMy().clickSettingsIcon();
+//                pm.getPageSettings().clickLoginOutTv();
+ //               pm.getPageSettings().clickBackBtn();
+//            }
+//            pm.getPageCommon().goToHomeTab();
         }
 
         }
